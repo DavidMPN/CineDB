@@ -1,7 +1,68 @@
 .navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
     width: 100%;
     height: 60px;
     position: sticky;
     top: 0;
     background-color: cornflowerblue;
+}
+
+.nav_list{
+    display:flex;
+    flex-direction: row;
+}
+
+li{
+    padding: 1rem;
+    font-size: 1rem;
+    list-style: none;
+}
+
+.nav_searchBox{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.nav_searchBox_input{
+    border: none;
+    outline: 0;
+    padding: 5px;
+    background-color: transparent;
+
+}
+
+::placeholder{
+    color:black;
+}
+
+.nav_left{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 100%;
+}   
+
+.nav_center{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 100%;
+}
+
+.nav_right{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 100%;
+}
+
+.nav_title{
+    padding: 0.5rem;
+    font-size: 1.5rem;
 }
